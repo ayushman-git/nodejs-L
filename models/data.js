@@ -21,6 +21,6 @@ const dataSchema = new Schema(
   }
 );
 
-const Data = mongoose.model('Data', dataSchema);
+const Data = mongoose.model('Blog', dataSchema);
 
 module.exports = Data;
